@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kayla Fu | Computational Mathematics Portfolio</title>
+  <meta name="description" content="Kayla Fu — PhD student in Computational Mathematics at MTSU. Data science, algorithm/model optimization, and graph theory applications.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Kayla Fu",
+    "jobTitle":"Computational Mathematician",
+    "alumniOf":,[
+      {"@type":"CollegeOrUniversity","name":"Middle Tennessee State University"},
+      {"@type":"CollegeOrUniversity","name":"University of New South Wales"},
+      {"@type":"CollegeOrUniversity","name":"Dalian Jiaotong University"}
+    ],
+    "email":"mailto:fuzishan531@gmail.com",
+    "url":"https://your-domain.com",
+    "sameAs":,["https://www.linkedin.com/in/yourname"]
+  }
+  </script>
+</head>
+<body>
+  <main class="wrap">
+    <!-- NAV -->
+    <header class="nav">
+      <div class="brand">Kayla Fu</div>
+      <nav class="menu" aria-label="Primary">
+        <a href="#top">HOME</a>
+        <a href="#work">PROJECTS</a>
+        <a href="#resume">RESUME</a>
+        <a href="mailto:fuzishan531@gmail.com?subject=Hello%20Kayla">CONTACT</a>
+      </nav>
+    </header>
+
+    <!-- HERO 左文右图 -->
+    <section class="hero" id="top" aria-label="Intro">
+      <div>
+        <p class="kicker">Data Science · Algorithm Optimization · Graph Theory</p>
+        <h1 class="headline">BRIDGING THEORY & DATA‑DRIVEN IMPACT</h1>
+        <p class="sub">
+          PhD student in Computational Mathematics at MTSU, focusing on data science, model optimization, and graph theory applications.
+        </p>
+        <p class="lead">
+          I design and optimize ML/numerical models and apply graph theory to real‑world networks.
+          My work emphasizes reproducibility, clear math‑to‑code translation, and measurable gains in accuracy, speed, and robustness.
+        </p>
+        <a class="btn-email" href="mailto:fuzishan531@gmail.com?subject=Inquiry%20(Data%20Science%2FOptimization%2FGraph%20Theory)&body=Hi%20Kayla%2C%0A%0AI%27d%20love%20to%20connect%20about...">Email Me</a>
+      </div>
+      <div class="hero-media">
+        <img src="assets/img/hero.jpg" alt="Kayla Fu portrait">
+      </div>
+    </section>
+
+    <!-- Skills 自动滑动展示 -->
+    <section class="skills" aria-label="Skills Marquee">
+      <div class="skills-head"><h2 class="skills-title">Skills</h2></div>
+      <div class="skills-track" id="skillsTrack" role="list" aria-live="polite">
+        <span class="skill">Machine Learning (scikit‑learn)</span>
+        <span class="skill">Model Optimization (Bayes HPO, pruning)</span>
+        <span class="skill">Numerical Optimization (LBFGS, Adjoint)</span>
+        <span class="skill">Graph Theory & Network Analysis</span>
+        <span class="skill">Graph Algorithms (shortest paths, flows, matching)</span>
+        <span class="skill">GNN basics (PyTorch Geometric)</span>
+        <span class="skill">Time‑Series & Forecasting</span>
+        <span class="skill">Uncertainty Quantification</span>
+        <span class="skill">Python: NumPy / SciPy / pandas</span>
+        <span class="skill">PyTorch / TensorFlow</span>
+        <span class="skill">Visualization: matplotlib / seaborn / Plotly</span>
+        <span class="skill">SQL · Git/GitHub · LaTeX</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS 横向滑动 -->
+    <section id="work" class="scroller-wrap" aria-label="Selected Projects">
+      <div class="sc-head">
+        <h2 class="sc-title">精选作品</h2>
+        <div class="sc-tools">
+          <div class="sc-filter" role="tablist" aria-label="Filter">
+            <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="chip" data-filter="Research" role="tab">Research</button>
+            <button class="chip" data-filter="Methods" role="tab">Methods</button>
+            <button class="chip" data-filter="Applied" role="tab">Applied</button>
+            <button class="chip" data-filter="Tooling" role="tab">Tooling</button>
+          </div>
+          <div class="sc-ctrl">
+            <button class="nav-btn" data-dir="-1" aria-label="Previous">←</button>
+            <button class="nav-btn" data-dir="1" aria-label="Next">→</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroller" id="scroller" aria-live="polite">
+        <a class="s-item" data-type="Research" href="project.html?slug=graph-optimization">
+          <img loading="lazy" src="assets/img/card_graphopt.jpg" alt="Graph optimization cover">
+          <div class="s-meta"><h3>Graph Optimization for Real‑World Networks</h3><p>Research · 2025</p></div>
+        </a>
+
+        <a class="s-item" data-type="Applied" href="project.html?slug=ds-pipeline">
+          <img loading="lazy" src="assets/img/card_pipeline.jpg" alt="Data science pipeline cover">
+          <div class="s-meta"><h3>End‑to‑End Data Science Pipeline</h3><p>Applied · 2024</p></div>
+        </a>
+
+        <a class="s-item" data-type="Methods" href="project.html?slug=model-tuning">
+          <img loading="lazy" src="assets/img/card_tuning.jpg" alt="Model tuning cover">
+          <div class="s-meta"><h3>Model Optimization & Hyperparameter Tuning</h3><p>Methods · 2024</p></div>
+        </a>
+
+        <a class="s-item" data-type="Research" href="project.html?slug=gnn-intro">
+          <img loading="lazy" src="assets/img/card_gnn.jpg" alt="GNN cover">
+          <div class="s-meta"><h3>Graph Neural Networks: From Theory to Practice</h3><p>Research · 2024</p></div>
+        </a>
+
+        <a class="s-item" data-type="Applied" href="project.html?slug=ts-forecasting">
+          <img loading="lazy" src="assets/img/card_ts.jpg" alt="Time‑series forecasting cover">
+          <div class="s-meta"><h3>Time‑Series Forecasting with Diagnostics</h3><p>Applied · 2023</p></div>
+        </a>
+
+        <a class="s-item" data-type="Tooling" href="project.html?slug=viz-toolkit">
+          <img loading="lazy" src="assets/img/card_viz.jpg" alt="Visualization toolkit cover">
+          <div class="s-meta"><h3>Visualization Toolkit for Graphs & Models</h3><p>Tooling · 2022</p></div>
+        </a>
+      </div>
+
+      <div class="dots" id="dots" aria-label="Carousel Pagination"></div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="resume" id="resume" aria-label="Resume">
+      <header class="resume-head">
+        <div>
+          <h2 class="resume-title">Resume</h2>
+          <p class="resume-sub">Computational Mathematics PhD • Open to Research / DS‑ML / Software roles</p>
+        </div>
+        <div class="resume-cta">
+          <a class="btn" href="assets/Kayla_Fu_Resume.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="btn btn-secondary" href="mailto:fuzishan531@gmail.com?subject=Hello%20Kayla">Contact</a>
+        </div>
+      </header>
+
+      <div class="resume-grid">
+        <section class="resume-card">
+          <h3>Profile</h3>
+          <p>
+            I focus on data science, algorithm/model optimization, and graph theory applications.
+            I translate mathematical ideas into reliable, production‑ready code with measurable impact.
+          </p>
+          <ul class="pill-list">
+            <li>Computational Math</li><li>Scientific ML</li><li>Optimization</li><li>Graphs</li>
+          </ul>
+        </section>
+
+        <section class="resume-card">
+          <h3>Education</h3>
+          <ul class="timeline">
+            <li><div class="row"><strong>PhD, Computational Mathematics · MTSU</strong><span>2025 — Present</span></div></li>
+            <li><div class="row"><strong>MS, Pure Mathematics · MTSU</strong><span>2024 — 2025</span></div></li>
+            <li><div class="row"><strong>ME, Information Technology · UNSW (Australia)</strong><span>2023 — 2024</span></div></li>
+            <li><div class="row"><strong>BS, Computational Mathematics · DJTU (China)</strong><span>2018 — 2023</span></div></li>
+            <li><div class="row"><strong>BE, Software Engineering · DJTU (China)</strong><span>2018 — 2023</span></div></li>
+          </ul>
+        </section>
+
+        <section class="resume-card">
+          <h3>Experience</h3>
+          <ul class="timeline">
+            <li>
+              <div class="row"><strong>Graduate Research Assistant · MTSU</strong><span>2024 — Present</span></div>
+              <p>Scientific ML + PDE/graph algorithms; model optimization; UQ; reproducible pipelines.</p>
+            </li>
+            <li>
+              <div class="row"><strong>Software/IT Projects · UNSW / DJTU</strong><span>2019 — 2024</span></div>
+              <p>End‑to‑end DS workflows; performance tuning; stakeholder dashboards.</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="resume-card">
+          <h3>Core Skills & Tools</h3>
+          <ul class="tags">
+            <li>Numerical Methods</li><li>PDE/ODE</li><li>Optimization</li><li>UQ</li>
+            <li>PyTorch</li><li>TensorFlow</li><li>scikit‑learn</li><li>pandas</li>
+            <li>C++/Java</li><li>SQL</li><li>Git</li><li>LaTeX</li>
+          </ul>
+          <h4 class="mt12">Interests</h4>
+          <ul class="tags">
+            <li>PINNs</li><li>Adjoint Methods</li><li>Multigrid</li><li>GNNs</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <!-- CONTACT：直接发邮件（mailto） -->
+    <section class="contact" id="contact" aria-label="Contact Me">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2 class="contact-title">Get in Touch</h2>
+          <p class="contact-sub">
+            Open to research collaborations, DS/ML roles, and software projects. I’ll get back to you soon.
+          </p>
+          <ul class="contact-details">
+            <li><strong>Email:</strong> <a href="mailto:fuzishan531@gmail.com">fuzishan531@gmail.com</a></li>
+            <li><strong>Location:</strong> Tennessee, USA · Remote friendly</li>
+          </ul>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/yourname" class="social-icon" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="#" class="social-icon" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="#" class="social-icon" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+        <!-- 直接用 mailto 提交 -->
+        <form class="contact-form" action="mailto:fuzishan531@gmail.com?subject=Website%20Message" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="your@email.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="Collaboration / Opportunity">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or question..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-submit">Send Email</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="foot">
+      <span>© 2026 Kayla Fu</span>
+      <span><a class="email-link" href="mailto:fuzishan531@gmail.com">fuzishan531@gmail.com</a></span>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
