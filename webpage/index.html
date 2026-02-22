@@ -1,0 +1,226 @@
+<!DOCTYPE html> 
+<html lang="en"> <head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title>Kayla (Zishan) Fu | Computational Mathematics · Data Science</title> 
+  <style> :root{ --ink:#222; --bg:#f9f9f9; --card:#fff; --line:#e5e5e5; --accent:#111; } 
+           html{scroll-behavior:smooth} 
+           body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.6;background:var(--bg);color:var(--ink)} /* Header */ 
+           header{background:var(--accent);color:#fff;padding:80px 20px;text-align:center} 
+           header h1{margin:0 0 10px;font-size:46px} 
+           .hero-minis{display:flex;align-items:center;justify-content:center;gap:14px;margin:0 auto} 
+           .mini-lines{text-align:right} .mini{font-size:14px;line-height:1.35;opacity:.9;white-space:nowrap} 
+           .mini-avatar{width:90px;height:90px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.3);
+           box-shadow:0 2px 6px rgba(0,0,0,.15)} 
+           .btn{display:inline-block;margin-top:16px;background:#fff;color:#111;border:none;padding:10px 20px;border-radius:4px;cursor:pointer;font-weight:700;text-decoration:none} .btn:hover{opacity:.9} 
+           nav{background:#fff;display:flex;justify-content:center;gap:28px;padding:14px;position:sticky;top:0;border-bottom:1px solid var(--line);z-index:10} nav a{text-decoration:none;color:#333;font-weight:bold} 
+           section{max-width:980px;margin:auto;padding:56px 20px} h2{margin:0 0 18px;border-left:4px solid var(--accent);padding-left:10px} .muted{color:#666} .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px} 
+           .card{background:var(--card);padding:20px;margin-bottom:18px;border-radius:6px;box-shadow:0 3px 10px rgba(0,0,0,.05)} .card h3{margin-top:0} ul.clean{margin:8px 0 0 18px} 
+           .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px} .tag{background:#f1f1f1;border:1px solid var(--line);padding:6px 10px;border-radius:999px;font-size:12px} 
+           .edulist{list-style:none;margin:0;padding:0} .edulist li{padding:10px 0;border-bottom:1px solid var(--line)} .edulist li:last-child{border-bottom:none} .years{float:right;color:#666} 
+           ooter{text-align:center;padding:36px 20px;background:#111;color:#fff;margin-top:40px} 
+           @media (max-width:768px){ header{padding:56px 16px} header h1{font-size:32px} .grid{grid-template-columns:1fr} } 
+           @media (max-width:640px){ .hero-minis{flex-direction:column;gap:10px} .mini-lines{text-align:center} .mini{white-space:normal} .years{float:none;display:block;margin-top:4px} }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Kayla (Zishan) Fu</h1>
+<div class="hero-minis">
+  <div class="mini-lines">
+    <div class="mini">PhD Student · Computational Mathematics (MTSU)</div>
+    <div class="mini">Data Science · Algorithm/Model Optimization · Graph Theory</div>
+  </div>
+  <img class="mini-avatar" src="f1.jpg" alt="Kayla (Zishan) Fu portrait">
+</div>
+</header>
+
+<nav aria-label="Primary">
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#work">Works</a>
+  <a href="#Thesis">Thesis</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a PhD student in Computational Mathematics at Middle Tennessee State University. 
+    My research and career interests span data science, algorithm and model optimization, and 
+    graph theory applications. I also study pure graph theory. I enjoy translating rigorous mathematics into reliable, 
+    production‑ready code with measurable gains in accuracy, speed, and robustness.
+  </p>
+  <p class="muted"><strong>Research and Career Interests:</strong> Data Science · Algorithm and Model Optimization · Graph Theory and Its Applications</p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+  <ul class="edulist">
+    <li>
+      <strong>PhD, Computational Mathematics</strong> · Middle Tennessee State University
+      <span class="years">2025 — Present</span>
+    </li>
+    <li>
+      <strong>MS, Pure Mathematics</strong> · Middle Tennessee State University
+      <span class="years">2024 — 2025</span>
+    </li>
+    <li>
+      <strong>ME, Information Technology</strong> · University of New South Wales, Australia
+      <span class="years">2023 — 2024</span>
+    </li>
+    <li>
+      <strong>BS, Computational Mathematics</strong> · Dalian Jiaotong University, China
+      <span class="years">2018 — 2023</span>
+    </li>
+    <li>
+      <strong>BE, Software Engineering</strong> · Dalian Jiaotong University, China
+      <span class="years">2018 — 2023</span>
+    </li>
+  </ul>
+  </div>
+</section>
+
+<section id="skills" style="max-width:980px;margin:0 auto;padding:56px 20px;">
+  <h2 style="margin:0 0 18px;border-left:4px solid #111;padding-left:10px;">Skills</h2>
+
+  <!-- Two columns: Mathematics × Computer Science -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;">
+
+    <!-- Mathematics -->
+    <div style="background:#fff;border:1px solid #e5e5e5;border-radius:6px;padding:18px;">
+      <h3 style="margin:0 0 8px;">Mathematics</h3>
+
+      <p style="margin:0 0 6px;color:#666;font-size:13px;">Research Directions</p>
+      <ul style="margin:6px 0 0 18px;">
+        <li>Graph Theory & Applications (max‑flow/min‑cut, bipartite matching, community detection)</li>
+        <li>Numerical Optimization (SGD, L‑BFGS, adjoint methods)</li>
+        <li>PDE/ODE Modeling (scientific computing)</li>
+        <li>Uncertainty Quantification (UQ)</li>
+        <li>Pure Graph Theory</li>
+      </ul>
+
+      <p style="margin:10px 0 6px;color:#666;font-size:13px;">Core Skills</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Mathematical Modeling</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Numerical Analysis</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Algorithm Design & Proofs</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">LaTeX</span>
+      </div>
+    </div>
+
+    <!-- Computer Science -->
+    <div style="background:#fff;border:1px solid #e5e5e5;border-radius:6px;padding:18px;">
+      <h3 style="margin:0 0 8px;">Computer Science</h3>
+
+      <p style="margin:0 0 6px;color:#666;font-size:13px;">Software Languages</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Python</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">SQL</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Shell / Linux CLI</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">C++</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Java</span>
+      </div>
+
+      <p style="margin:10px 0 6px;color:#666;font-size:13px;">Directions</p>
+      <ul style="margin:6px 0 0 18px;">
+        <li>Data Science: ingestion → cleaning → features → modeling → diagnostics/reporting</li>
+        <li>Algorithm & Model Optimization: Bayesian HPO, pruning, quantization</li>
+        <li>ML & GNNs: scikit‑learn, PyTorch (incl. PyTorch Geometric basics)</li>
+      </ul>
+
+      <p style="margin:10px 0 6px;color:#666;font-size:13px;">Tech Stack</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">NumPy</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">SciPy</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">pandas</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">PyTorch</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">TensorFlow</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">scikit‑learn</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Optuna</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Matplotlib</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Seaborn</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Plotly</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Git/GitHub</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Docker</span>
+        <span style="background:#f1f1f1;border:1px solid #e5e5e5;padding:6px 10px;border-radius:999px;font-size:12px;">Jupyter</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="work">
+  <h2>Works</h2>
+
+  
+
+  <!-- 2024–Present GTA -->
+<div class="card">
+    <h3>Graduate Teaching Assistant (MTSU)</h3>
+    <p class="muted">Full-time Work · 2024 - Present</p>
+    <ul class="clean">
+      <li>Independently taught undergraduate mathematics courses, including lecturing, assessment, and course management.</li>
+      <li>Provided specialized tutoring in Computer Science and Mathematics for undergraduate and Master’s students.</li>
+    </ul>
+  </div>
+
+<!-- Hypergraph Personalized PageRank (EDVW) --> 
+ <div class="card"> 
+  <h3>Research Consultant: Hypergraph Personalized PageRank (EDVW)</h3> 
+  <p class="muted">Research · Supervisor: Dr Zhengyi Yang · Sydney, AU · 2023 - 2024</p> 
+  <ul class="clean"> 
+    <li>Formulated Laplacian-based high‑order walk PPR on hypergraphs with edge‑dependent vertex weights.</li> 
+    <li>Built efficient C++ algorithms; ran comparative studies on real datasets to improve personalization and scalability.</li>
+  </ul> 
+</div> 
+
+<!-- Neural Networks & Sentiment Analysis --> 
+  <div class="card"> <h3>Research Consultant: Neural Networks & Sentiment Analysis</h3> 
+    <p class="muted">Research · Supervisor: Dr Alan Blair · Sydney, AU · 2023</p> 
+    <ul class="clean"> 
+      <li>Implemented MLP/RNN/LSTM/CNN and a hybrid CNN+LSTM for NLP tasks.</li> 
+      <li>Optimized sentiment classification on film reviews; boosted accuracy and efficiency.</li> </ul> 
+  </div> 
+  
+
+<!-- Mathematics, Matrix Theory, and Polynomial Analysis --> 
+ <div class="card"> <h3>Dissertation: Mathematics, Matrix Theory, and Polynomial Analysis</h3> 
+  <p class="muted">Project · Supervisor: Dr Aiqi Wang · Dalian, CHN · 2022</p> 
+  <ul class="clean"> 
+    <li>Created matrix/elementary‑transform/coefficient‑matrix methods for computing polynomial GCD.</li> 
+    <li>Proved correctness and benchmarked against Euclidean/factorization approaches to improve efficiency.</li> 
+  </ul> 
+</div>
+
+</section> </main> </body> </html>
+
+<section id="Thesis">
+  <h2>Thesis</h2>
+  <div class="card">
+    <ul class="clean">
+      <li>Notes: PDE‑constrained optimization and adjoint methods (in progress)</li>
+      <li>Report: Uncertainty Quantification for physics‑informed models</li>
+      <li>Tutorial: Graph algorithm patterns for DS use‑cases</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:fuzishan531@gmail.com">fuzishan531@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/kayla-fu-a416432aa/" target="_blank">lhttps://www.linkedin.com/in/kayla-fu-a416432aa/</a></p>
+    <p>GitHub: <a href="https://github.com/kaylafu1225" target="_blank">https://github.com/kaylafu1225</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Kayla (Zishan) Fu 
+</footer>
+
+</body>
+</html>
